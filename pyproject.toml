@@ -16,18 +16,23 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 dependencies = [
+    "apache-airflow>=3.3.1",
     "awscli",
     "ipython",
     "jupyterlab",
     "loguru",
     "matplotlib",
     "mkdocs",
+    "nbautoexport>=0.5.2",
     "notebook",
     "numpy",
     "pandas",
     "pip",
+    "plotly>=7.0.0",
     "pytest",
     "python-dotenv",
+    "radian>=0.6.16",
+    "rpy2>=3.6.7",
     "ruff",
     "tqdm",
     "typer",

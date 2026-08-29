@@ -1,0 +1,16 @@
+- Interest rate
+	- https://fiscaldata.treasury.gov/api-documentation/
+- Inflation
+	- https://www.worldbank.org/en/research/brief/inflation-database
+	- https://fred.stlouisfed.org/docs/api/fred/
+- us bond
+	- https://fiscaldata.treasury.gov/api-documentation/
+- Seasonality
+	- https://www.eia.gov/opendata/
+- Producer Cost price
+	- https://fred.stlouisfed.org/series/PPIACO
+- CPI
+	- FRED
+- GDP
+	- OECD
+	- https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html
