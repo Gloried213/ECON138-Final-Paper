@@ -36,6 +36,7 @@ dependencies = [
     "ruff",
     "tqdm",
     "typer",
+    "yfinance>=1.7.0",
 ]
 requires-python = "~=3.15.0"
 

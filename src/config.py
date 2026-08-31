@@ -10,6 +10,15 @@ load_dotenv()
 PROJ_ROOT = Path(__file__).resolve().parents[1]
 logger.info(f"PROJ_ROOT path is: {PROJ_ROOT}")
 
+REFERENCES_DIR = PROJ_ROOT / "references"
+
+SAMPLE_DATA_DIR = REFERENCES_DIR / "sample_data"
+RAW_SAMPLE_DATA_SOURCE_DIR = SAMPLE_DATA_DIR / "raw_data_source"
+FRED_SAMPLE_DATA_DIR = RAW_SAMPLE_DATA_SOURCE_DIR / "fred"
+
+CLEANED_SAMPLE_DATA_DIR = SAMPLE_DATA_DIR / "cleaned"
+MODELS_SAMPLE_DATA_DIR = SAMPLE_DATA_DIR / "models"
+
 DATA_DIR = PROJ_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 INTERIM_DATA_DIR = DATA_DIR / "interim"

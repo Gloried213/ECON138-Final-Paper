@@ -9,3 +9,6 @@ https://fred.stlouisfed.org/docs/api/fred/
 https://fiscaldata.treasury.gov/api-documentation/
 https://www.eia.gov/opendata/
 https://www.worldbank.org/en/research/brief/inflation-database
+
+packages:
+yfinance
