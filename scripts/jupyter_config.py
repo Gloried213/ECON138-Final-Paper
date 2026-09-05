@@ -4,3 +4,4 @@ ipython = get_ipython()
 if ipython is not None:
     ipython.run_line_magic("load_ext", "autoreload")
     ipython.run_line_magic("autoreload", "2")
+    ipython.run_line_magic("load_ext", "rpy2.ipython")
